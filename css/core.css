@@ -1,3 +1,12 @@
+:root {
+	--main-bg-color: #040404;
+	--main-color: #ffffff;
+}
+
+body{
+	background: var(--main-bg-color);
+}
+
 h1{
-	color:red;
+	color:var(--main-color);
 }
