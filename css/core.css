@@ -8,5 +8,6 @@ body{
 }
 
 h1{
+	font-family: 'Raleway', sans-serif;
 	color:var(--main-color);
 }
