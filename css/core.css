@@ -53,3 +53,18 @@ h1,h2,h3,h4,h5,h6,p{
         -ms-transform: rotate(12deg);
             transform: rotate(12deg);
 }
+
+.left-panel__work,
+.right-panel__play{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    right: 50%;
+    left: 20px;
+}
+
+.right-panel__play{
+	left: 50%;
+    right: 20px;
+}
