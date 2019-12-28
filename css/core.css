@@ -13,9 +13,12 @@ body{
 h1,h2,h3,h4,h5,h6,p{
 	font-family: 'Raleway', sans-serif;
 	color:var(--main-color);
+	font-weight: 300;
+    margin: 5px 0px;
 }
 
 #home-panel{
+	padding:50px;
 	position: fixed;
 	top:0;
 	bottom: 0;
@@ -23,7 +26,21 @@ h1,h2,h3,h4,h5,h6,p{
 	right:0;
 }
 
+.home-panel__primary--content{
+	display: inline-block;
+    text-align: center;
+}
+
 #home-panel:before{
-	content:"";
-	position: absolute;
+	content: "";
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    width: 5px;
+    left: 50%;
+    background: #ffffff;
+    opacity: 0.6;
+    -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+            transform: rotate(12deg);
 }
