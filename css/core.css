@@ -18,6 +18,14 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 5px 0px;
 }
 
+h1{
+    font-size: 2.4rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
 #home-panel{
 	padding:50px;
 	position: fixed;
@@ -28,6 +36,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .home-panel__primary--content{
+	z-index: 10;
 	background: var(--secondary-bg-color);
 	display: inline-block;
     padding: 30px;
