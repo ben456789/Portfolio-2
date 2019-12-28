@@ -118,6 +118,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .clickable-area p:hover{
 	background: #ffffff;
+    color: var(--main-bg-color);
 }
 
 .clickable-area p:hover:before{
