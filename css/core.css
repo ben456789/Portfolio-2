@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .clickable-area p{
-	mix-blend-mode: difference;
+	overflow: hidden;
 	position: relative;
 	display: inline-block;
 	font-size: 4rem;
@@ -93,7 +93,24 @@ h1,h2,h3,h4,h5,h6,p{
 
 .clickable-area p:before{
 	content: "";
-	position: absolute;
-	top:0;
-	bottom:0;
+    position: absolute;
+    top: -30px;
+    bottom: -30px;
+    left: -170px;
+    opacity: 0;
+    background: #ffffff;
+    mix-blend-mode: difference;
+    width: 33%;
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+    -webkit-transition: all cubic-bezier(0.49, -0.01, 1, 0.75) 0.2s;
+    	 -o-transition: all cubic-bezier(0.49, -0.01, 1, 0.75) 0.2s;
+    		transition: all cubic-bezier(0.49, -0.01, 1, 0.75) 0.2s;
+    
+}
+
+.clickable-area p:hover:before{
+	left: 490px;
+	opacity: 1;
 }
