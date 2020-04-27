@@ -59,7 +59,7 @@ h2{
 a {
     position: relative;
     padding: 0px 2px;
-    color: var(--main-color);
+    color: var(--link);
 }
 
 a i{
@@ -68,9 +68,8 @@ a i{
 }
 
 a:hover{
-    color: var(--main-color);
     text-decoration: none;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 a:hover i{
