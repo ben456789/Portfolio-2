@@ -18,7 +18,7 @@ h2{
 a {
     position: relative;
     padding: 0px 2px;
-    color: #ffffff;
+    color: var(--main-color);
     -webkit-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
          -o-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
             transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
@@ -30,6 +30,8 @@ a i{
 }
 
 a:hover{
+    color: var(--main-color);
+    text-decoration: none;
     opacity: 0.75;
 }
 
