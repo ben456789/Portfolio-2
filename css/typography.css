@@ -19,7 +19,22 @@ a {
     position: relative;
     padding: 0px 2px;
     color: #ffffff;
-    -webkit-transition: all .45s var(--primary-ease);
-         -o-transition: all .45s var(--primary-ease);
-            transition: all .45s var(--primary-ease);
+    -webkit-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
+         -o-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
+            transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
+}
+
+a i{
+    font-size: 11px;
+    margin-left: 15px;
+}
+
+a:hover{
+    opacity: 0.75;
+}
+
+a:hover i{
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
