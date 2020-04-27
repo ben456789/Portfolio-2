@@ -32,7 +32,8 @@ body{
     text-align: center
 }
 
-.section--content-center, .section--content-center-bottom {
+.section--content-center, 
+.section--content-center-bottom {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
