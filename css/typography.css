@@ -6,8 +6,12 @@ h1,h2,h3,h4,h5,h6,p{
     position: relative;
 }
 
+h1{
+    margin-bottom: 23px;
+}
+
 h2{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-bottom: 40px;
 }
 
@@ -15,7 +19,7 @@ a {
     position: relative;
     padding: 0px 2px;
     color: #ffffff;
-    -webkit-transition: all 200ms cubic-bezier(0.56, 0.03, 0.37, 0.55);
-    -o-transition: all 200ms cubic-bezier(0.56, 0.03, 0.37, 0.55);
-    transition: all 200ms cubic-bezier(0.56, 0.03, 0.37, 0.55);
+    -webkit-transition: all .45s var(--primary-ease);
+         -o-transition: all .45s var(--primary-ease);
+            transition: all .45s var(--primary-ease);
 }
