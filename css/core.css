@@ -44,3 +44,47 @@ body{
     left: auto;
     right: -40px;
 }
+
+.exp-list {
+    margin-top: 80px;
+    list-style-type: none;
+    text-align: right;
+    padding-left: 0px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.exp-list li{
+	background: var(--link);
+    color: var(--main-color);
+    margin: 0px 0px 15px;
+    padding: 5px 10px;
+    position: relative;
+	opacity: 0;
+    -webkit-transform: translateY(30px);
+		-ms-transform: translateY(30px);
+    		transform: translateY(30px);
+}
+
+.exp-list li.grid-load{
+	opacity: 1;
+    -webkit-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+    		transform: translateY(0px);
+}
+
+.exp-list li span {
+    position: absolute;
+    color: var(--main-color);
+    line-height: 35px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #333333;
+    min-width: 80px;
+    text-align: center;
+}
