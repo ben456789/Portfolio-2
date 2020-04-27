@@ -56,11 +56,6 @@ h2{
     opacity:0.6;
 }
 
-.key-feature:hover p,
-.key-feature:hover i{
-    opacity: 1;
-}
-
 a {
     position: relative;
     padding: 0px 2px;
