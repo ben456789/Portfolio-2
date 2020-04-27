@@ -7,9 +7,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 h1,h2,h3,h4,h5,h6,p,i,a{
-    -webkit-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
-         -o-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
-            transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease);
+    -webkit-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
+         -o-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
+            transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
 }
 
 h1{
@@ -55,10 +55,13 @@ h2{
     opacity:0.6;
 }
 
-.key-feature:hover i,
+.key-feature:hover i{
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+}
 .key-feature:hover p{
-    transform: scale(0.8);
-    opacity:1;
+    opacity: 1;
 }
 
 a {
