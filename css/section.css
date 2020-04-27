@@ -2,6 +2,12 @@
 .section {
     padding: 90px 20px;
     border-bottom: 5px solid var(--main-color);
+    box-sizing: border-box;
+    display: block;
+    border-bottom: 4px solid;
+    padding: 90px 20px;
+    text-align: center;
+    opacity: 1;
 }
 
 
