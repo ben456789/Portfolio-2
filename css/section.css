@@ -1,6 +1,7 @@
 
 .section {
-    padding: 90px 20px
+    padding: 90px 20px;
+    border-bottom: 5px solid var(--main-color);
 }
 
 
