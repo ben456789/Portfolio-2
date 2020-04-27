@@ -1,8 +1,52 @@
+body, html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+html {
+    font-family: 'Kodchasan', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
 body{
 	position: relative;
 	background: var(--main-bg-color);
 	height: 100vh;
     margin: 0;
+}
+
+.section {
+    padding: 90px 20px
+}
+
+
+.section--full-height {
+    min-height: 100vh
+}
+
+.section--content-center {
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+
+.section--content-center, .section--content-center-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.section--content-center-bottom {
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.section__hero-content {
+    max-width: 760px;
+    padding: 0 20px
 }
 
 .multi-line {
