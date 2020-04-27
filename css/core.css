@@ -60,7 +60,7 @@ body{
 	color: var(--main-color);
 	display: inline-block;
 	width: calc(100% / 2 - 20px);
-    margin: 0px 0px 15px;
+    margin: 0px 10px 15px;
     padding: 5px 10px;
     position: relative;
 	opacity: 0;
