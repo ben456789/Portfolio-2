@@ -46,18 +46,20 @@ body{
 }
 
 .exp-list {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 80px;
     list-style-type: none;
     text-align: right;
     padding-left: 0px;
-    -webkit-columns: 4;
-    -moz-columns: 4;
-    columns: 4;
 }
 
 .exp-list li{
 	background: var(--link);
-    color: var(--main-color);
+	color: var(--main-color);
+	display: inline-block;
+	width: calc(100% / 2 - 20px);
     margin: 0px 0px 15px;
     padding: 5px 10px;
     position: relative;
