@@ -3,6 +3,9 @@
 	--secondary-bg-color: #040404ba;
 	--main-color: #ffffff;
 
+	--custom-ease-1: cubic-bezier(0.475,0.425,0,0.995);
+    --primary-ease: var(--custom-ease-1);
+
 	--green: #18fe92;
 	--red: #fc155b;
 	--blue: #5e89fa;
@@ -23,6 +26,34 @@ body{
 	background: var(--main-bg-color);
 	height: 100vh;
     margin: 0;
+}
+
+.multi-line {
+    display: block;
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    background: var(--red);
+    -webkit-transform: translateX(-50%);
+    	-ms-transform: translateX(-50%);
+    		transform: translateX(-50%);
+}
+
+.multi-line:before,
+.multi-line:after {
+	content: "";
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: var(--green);
+    left: -40px;
+}
+.multi-line:after{
+	background: var(--blue);
+    left: auto;
+    right: -40px;
 }
 
 h1,h2,h3,h4,h5,h6,p{
