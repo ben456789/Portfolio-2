@@ -3,6 +3,12 @@ h1,h2,h3,h4,h5,h6,p{
 	color:var(--main-color);
 	font-weight: 300;
     margin: 5px 0px;
+    position: relative;
+}
+
+h2{
+    padding-bottom: 5px;
+    margin-bottom: 40px;
 }
 
 a {
