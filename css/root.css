@@ -1,7 +1,8 @@
 :root {
 	--main-bg-color: #121117;
 	--secondary-bg-color: #040404ba;
-	--main-color: #ffffff;
+    --main-color: #ffffff;
+    --link:#bdbdbd;
 
 	--custom-ease-1: cubic-bezier(0.475,0.425,0,0.995);
     --primary-ease: var(--custom-ease-1);
