@@ -50,9 +50,9 @@ body{
     list-style-type: none;
     text-align: right;
     padding-left: 0px;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
 }
 
 .exp-list li{
