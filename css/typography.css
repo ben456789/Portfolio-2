@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,i{
 	font-family: 'Kodchasan', sans-serif;
 	color:var(--main-color);
 	font-weight: 300;
@@ -49,18 +49,15 @@ h2{
 
 .key-feature i {
     font-size: 60px;
+    opacity:0.6;
 }
 
 .key-feature p{
     opacity:0.6;
 }
 
+.key-feature:hover p,
 .key-feature:hover i{
-    -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-            transform: scale(0.8);
-}
-.key-feature:hover p{
     opacity: 1;
 }
 
