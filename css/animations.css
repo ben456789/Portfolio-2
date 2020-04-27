@@ -1,8 +1,8 @@
 .shimmer{
     -webkit-animation-name: shimmer;
             animation-name: shimmer;
-    -webkit-animation-duration: 450ms;
-            animation-duration: 450ms;
+    -webkit-animation-duration: 2000ms;
+            animation-duration: 2000ms;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
