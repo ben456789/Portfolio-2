@@ -22,11 +22,12 @@ body{
 }
 
 hr{
-    margin-top:2.5rem;
-    border-top: 1px solid rgba(255,255,255,1);
+    margin-top: 1rem;
+    border-top: 1px solid var(--main-color);
 }
 
 dt,dd{
+    color: var(--main-color);
     display: inline-block;
     width: 25%;
 }
@@ -91,6 +92,10 @@ dd{
     list-style-type: none;
     text-align: right;
     padding-left: 0px;
+}
+
+.exp-list.cv {
+    margin-top: 20px;
 }
 
 .exp-list li{
