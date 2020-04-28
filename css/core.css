@@ -17,6 +17,19 @@ body{
     margin: 0;
 }
 
+#home-panel{
+    position: relative;
+}
+
+#waves,
+#waves canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+} 
+
 .multi-line {
     display: block;
     height: 1px;
