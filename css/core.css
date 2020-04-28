@@ -21,6 +21,26 @@ body{
     text-align: left;
 }
 
+hr{
+    margin-top:2.5rem;
+    border-top: 1px solid rgba(255,255,255,1);
+}
+
+dt,dd{
+    display: inline-block;
+    width: 25%;
+}
+
+dt{
+    font-weight: 500;
+    width: 75%;
+}
+
+dd{
+    text-align: center;
+    font-weight: 700;
+}
+
 #home-panel{
     position: relative;
 }
