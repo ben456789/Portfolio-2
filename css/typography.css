@@ -21,6 +21,70 @@ h2{
     margin-bottom: 40px;
 }
 
+
+a {
+    position: relative;
+    padding: 0px 2px;
+    color: var(--link);
+}
+
+a i{
+    font-size: 11px;
+    margin-left: 15px;
+}
+
+a:hover{
+    color: var(--link); 
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+a:hover:not(.main) i{
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.button{
+    display: inline-block;
+    padding: 7px 2px;
+    background:
+     linear-gradient(
+       to bottom, var(--main-color) 0%,
+       var(--main-color) 100%
+     );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+    text-decoration: none;
+    transition: all .45s var(--primary-ease),
+}
+
+.button:hover{
+    opacity: 1;
+    background-size: 4px 38px;
+    color: var(--main-bg-color);
+}
+
+.plus{
+    position: relative;
+    font-size: 60px;
+    top: 10px;
+    left: 5px;
+}
+
+.odometer * {
+    font-size: 100px;
+}
+
+.key-feature i {
+    font-size: 60px;
+    opacity:0.6;
+}
+
+.key-feature p{
+    opacity:0.6;
+}
+
 .note {
     position: relative;
     font-size: 14px;
@@ -45,66 +109,4 @@ h2{
     left: auto;
     right: -40px;
     background: var(--blue);
-}
-
-.key-feature i {
-    font-size: 60px;
-    opacity:0.6;
-}
-
-.key-feature p{
-    opacity:0.6;
-}
-
-a {
-    position: relative;
-    padding: 0px 2px;
-    color: var(--link);
-}
-
-a i{
-    font-size: 11px;
-    margin-left: 15px;
-}
-
-a:hover{
-    color: var(--link); 
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-a:hover:not(.main) i{
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
-}
-
-.button{
-    background:
-     linear-gradient(
-       to bottom, var(--main-color) 0%,
-       var(--main-color) 100%
-     );
-	background-position: 0 100%;
-	background-repeat: repeat-x;
-	background-size: 4px 4px;
-    text-decoration: none;
-}
-
-.button:hover{
-    opacity: 1;
-    background-size: 4px 50px;
-    color: var(--main-bg-color);
-}
-
-
-.plus{
-    position: relative;
-    font-size: 60px;
-    top: 10px;
-    left: 5px;
-}
-
-.odometer * {
-    font-size: 100px;
 }
