@@ -78,3 +78,15 @@ a:hover i{
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);
 }
+
+
+.plus{
+    position: relative;
+    font-size: 60px;
+    top: 10px;
+    left: 5px;
+}
+
+.odometer * {
+    font-size: 100px;
+}
