@@ -160,10 +160,15 @@ footer .main i{
     top: 50px;
     left: 0px;
     font-size: 40px;
+    z-index: 99;
 }
 
 .home-arrow a {
     padding: 0px 25px 0px 60px;
+}
+
+.home-arrow a i{
+    font-size: 47px;
 }
 
 .home-arrow a:hover {
