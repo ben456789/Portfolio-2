@@ -73,7 +73,7 @@ a:hover{
     opacity: 0.8;
 }
 
-a:hover i{
+a:hover:not(.main) i{
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);

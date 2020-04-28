@@ -13,8 +13,8 @@ html {
 body{
 	position: relative;
 	background: var(--main-bg-color);
-	height: 100vh;
     margin: 0;
+    padding-bottom: 373px;
 }
 
 #home-panel{
@@ -104,4 +104,13 @@ body{
     background: #333333;
     min-width: 80px;
     text-align: center;
+}
+
+footer{
+    z-index: 0;
+    border-bottom: 0px;
+}
+footer .main i{
+    font-size: 60px;
+    margin: 0px;
 }
