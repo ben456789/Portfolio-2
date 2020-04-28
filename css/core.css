@@ -17,6 +17,10 @@ body{
     padding-bottom: 475px;
 }
 
+.cv{
+    text-align: left;
+}
+
 #home-panel{
     position: relative;
 }
