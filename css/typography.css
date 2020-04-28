@@ -45,7 +45,7 @@ a:hover:not(.main) i{
             transform: rotate(90deg);
 }
 .button{
-    display: inline-block;
+    display: inline-block; 
     padding: 7px 2px;
     background:
      linear-gradient(
@@ -56,7 +56,8 @@ a:hover:not(.main) i{
 	background-repeat: repeat-x;
 	background-size: 4px 4px;
     text-decoration: none;
-    transition: all .45s var(--primary-ease),
+    transition: all .45s var(--primary-ease);
+    
 }
 
 .button:hover{
