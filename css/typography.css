@@ -79,6 +79,24 @@ a:hover:not(.main) i{
             transform: rotate(90deg);
 }
 
+.button{
+    background:
+     linear-gradient(
+       to bottom, var(--main-color) 0%,
+       var(--main-color) 100%
+     );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+    text-decoration: none;
+}
+
+.button:hover{
+    opacity: 1;
+    background-size: 4px 50px;
+    color: var(--main-bg-color);
+}
+
 
 .plus{
     position: relative;
