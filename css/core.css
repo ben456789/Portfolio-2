@@ -14,7 +14,7 @@ body{
 	position: relative;
 	background: var(--main-bg-color);
     margin: 0;
-    padding-bottom: 373px;
+    padding-bottom: 475px;
 }
 
 #home-panel{
@@ -122,4 +122,23 @@ footer .main i{
 .fab{
     font-size: 26px;
     margin: 20px 10px;
+}
+
+.home-arrow {
+    mix-blend-mode: difference;
+    display: inline-block;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    font-size: 40px;
+}
+
+.home-arrow a {
+    padding: 0px 25px 0px 60px;
+}
+
+.home-arrow a:hover {
+    color: #121117;
+    background: #ffffff;
+    text-decoration: none;
 }

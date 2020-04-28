@@ -1,0 +1,60 @@
+/*  CV Blocks  */
+.sagittarius{
+    background:white;
+}
+
+.sagittarius img{
+    width: 290px;
+    margin-bottom: 25px;
+}
+
+.sagittarius h4{
+    color: #008ca9;
+}
+
+.sagittarius p{
+    color:#666;
+}
+
+.sagittarius a{
+    color:#008ca9;
+}
+
+.sagittarius a:hover{
+    color: #0d4254;
+}
+
+.sagittarius hr{
+    margin-top:1rem;
+    border-top: 1px solid #0d4254;
+}
+
+.mission{
+    background:white;
+}
+
+.mission img{
+    margin-bottom:20px;
+    width: 100px;
+}
+
+.mission h4{
+    color:#799fab;
+}
+
+.mission p{
+    color:#000000;
+}
+
+.mission a{
+    color:#e01935;
+}
+
+.mission a:hover{
+    color:#799fab;
+}
+
+.mission hr{
+    margin-top:1rem;
+    border-top: 1px solid #d9d9d9;
+}
