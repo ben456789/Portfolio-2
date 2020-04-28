@@ -19,6 +19,7 @@
 	<body>
 
 		<section id="home-panel" class="section section--full-height section--content-center">
+			<div id="waves"></div>
 			<div class="section__hero-content">
 				<h1><span class="green">Hello</span>, I'm <span class="red">Ben</span> <span class="blue">Davies</span>.</h1>
 				<h2>A front end web developer.
@@ -102,12 +103,31 @@
 
 
 
-	<script
-	  src="https://code.jquery.com/jquery-3.4.1.min.js"
-	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-	  crossorigin="anonymous"></script>
+		<script
+		src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="/js/core.js"></script>
+		<script type="text/javascript" src="/js/lib/three.js"></script>
+		<script type="text/javascript" src="/js/lib/waves.js"></script>
+
+		<script>
+			VANTA.WAVES({
+			  el: "#your-element-selector",
+			  mouseControls: true,
+			  touchControls: true,
+			  minHeight: 200.00,
+			  minWidth: 200.00,
+			  scale: 1.00,
+			  scaleMobile: 1.00,
+			  color: 0x2f2f2f,
+			  waveHeight: 0.00,
+			  waveSpeed: 0.00,
+			  zoom: 0.65
+			})
+			</script>
+
+		<script type="text/javascript" src="/js/core.js"></script>
 	</body>
 
 
