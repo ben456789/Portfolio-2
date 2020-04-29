@@ -28,6 +28,7 @@ body{
 
 .home-arrow a i {
     font-size: 20px;
+    color: var(--main-bg-color);
 }
 
 h1{
