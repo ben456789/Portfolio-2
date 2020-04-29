@@ -7,9 +7,9 @@ h1,h2,h3,h4,h5,h6,p,i,span{
 }
 
 h1,h2,h3,h4,h5,h6,p,i,a,li{
-    -webkit-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
-         -o-transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
-            transition: opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
+    -webkit-transition: background .45s var(--primary-ease), color .45s var(--primary-ease), opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
+         -o-transition: background .45s var(--primary-ease), color  .45s var(--primary-ease), opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
+            transition: background .45s var(--primary-ease), color .45s var(--primary-ease), opacity .45s var(--primary-ease), transform .95s var(--primary-ease),-webkit-transform .95s var(--primary-ease),-ms-transform .95s var(--primary-ease);
 }
 
 h1{
