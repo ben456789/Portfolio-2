@@ -13,6 +13,11 @@
 
 .cv-section{
     text-align: left;
+    
+}
+
+.sagittarius{
+    border-bottom: 5px solid var(--main-bg-color);
 }
 
 
