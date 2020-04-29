@@ -124,8 +124,8 @@ dd{
 .exp-list li span {
     position: absolute;
     color: var(--main-color);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     line-height: 35px;
     left: 0px;
     top: 0px;
