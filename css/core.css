@@ -172,7 +172,14 @@ footer .main i{
 }
 
 .home-arrow a:hover {
-    color: #121117;
-    background: #ffffff;
+    color: var(--main-bg-color);
+    background: var(--main-color);
     text-decoration: none;
 }
+.home-arrow a:hover i{
+    color: var(--main-bg-color);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+
