@@ -1,7 +1,36 @@
+body{
+    padding-bottom: 475px;
+}
+
+.section{
+    padding: 30px 0px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+h2{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .key-feature {
     display: none;
 }
 
 .exp-list li{
     width:100%;
+}
+
+.content-row {
+    margin-bottom: 30px;
+}
+
+.sagittarius img{
+    width: 150px;
+}
+
+.mission img{
+    width: 80px;
 }
