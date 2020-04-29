@@ -101,6 +101,7 @@ dd{
 .exp-list li{
 	background: var(--main-color);
     color: var(--main-bg-color);
+    border-radius: 5px;
     font-weight: 500;
 	display: inline-block;
 	width: calc(100% / 2 - 20px);
@@ -123,6 +124,8 @@ dd{
 .exp-list li span {
     position: absolute;
     color: var(--main-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     line-height: 35px;
     left: 0px;
     top: 0px;
@@ -185,13 +188,15 @@ footer .main i{
 }
 
 .image-window{
+    margin: 0px auto 70px;
     position: relative;
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
+    border-radius: 10px;
 }
 
-.image-window{
+.image-window img{
     position: absolute;
     top:0;
     left:0;
