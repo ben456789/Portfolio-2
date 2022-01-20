@@ -14,7 +14,7 @@ body{
 	position: relative;
 	background: var(--main-bg-color);
     margin: 0;
-    padding-bottom: 475px;
+    padding-bottom: 304px;
 }
 
 .cv{
@@ -148,7 +148,7 @@ footer.section{
     right:0;
 }
 footer .main i{
-    font-size: 60px;
+    font-size: 30px;
     margin: 0px;
 }
 
