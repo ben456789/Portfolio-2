@@ -3,8 +3,8 @@
     opacity: 0.6;
 } 
 
-.section__hero-content h1.load
-.section__hero-content h2.load
+.section__hero-content h1.load,
+.section__hero-content h2.load,
 .section__hero-content a.load{
     opacity: 1;
     -webkit-transform: translateY(0px);
