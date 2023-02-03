@@ -8,7 +8,8 @@
     margin-bottom: 25px;
 }
 
-.sagittarius h3{
+.sagittarius h3,
+.sagittarius h6{
     color: #008ca9;
 }
 
@@ -38,7 +39,7 @@
     width: 100px;
 }
 
-.mission h4{
+.mission h3{
     color:#799fab;
 }
 
